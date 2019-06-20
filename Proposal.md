@@ -57,6 +57,8 @@ https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=VN
   <li>GDP per Capita</li>
   <li>Combination Quality of Life Index x GDP per Capita</li>
  </ol>
+ 
+ * Add YEAR filter
 
 ![countrycholorpleth.png](Images/countrycholorpleth_v2.png)
 
@@ -73,6 +75,8 @@ https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=VN
 <li>Education</li>
 <li>Etc.</li>
   </ol>
+
+* Add YEAR filter
 
 ![7-animated-scatter](Images/7-animated-scatter.gif)
 
