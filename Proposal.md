@@ -49,24 +49,24 @@ https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=VN
 
 ### WORLD MAP - Heat Map
 
-Scale by:
-Quality of Life Index
-GDP per Capita
-Combination Quality of Life Index x GDP per Capita
+* Scale by:
+- Quality of Life Index
+- GDP per Capita
+- Combination Quality of Life Index x GDP per Capita
 
 ![countrycholorpleth.png](Images/countrycholorpleth_v2.png)
 
 
 ### Scatter Plot of Country
 
-X axis: GDP per Capita
-Y axis: (Choose From)
-Quality of Life Index
-Health
-Work Life Balance
-Safety
-Education
-Etc.
+* X axis: GDP per Capita
+* Y axis: (Choose From)
+-Quality of Life Index
+-Health
+-Work Life Balance
+-Safety
+-Education
+-Etc.
 
 ![7-animated-scatter](Images/7-animated-scatter.gif)
 
