@@ -8,15 +8,18 @@ What is happiness? Does happiness correlate with a country’s GDP per capita? Q
 
 ### Well-being Life Index:
 https://stats.oecd.org/index.aspx?DataSetCode=BLI
-CSV download
+
+* CSV download
 
 ### Quality of Life Index by Country:
 https://www.numbeo.com/quality-of-life/ 
-Web scraping
+
+* Web scraping
 
 ### GDP Per Capita:
 https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=VN
-CSV download
+
+* CSV download
 
 
 ## Screenshots of Inspiring Viz
@@ -25,24 +28,24 @@ CSV download
 
 ![betterlifeindex](Images/betterlifeindex.png)
 
-Sorts the y-Axis by the interactive scale filter. Each category is a different node that will enlarge as you increase the scale.
+* Sorts the y-Axis by the interactive scale filter. Each category is a different node that will enlarge as you increase the scale.
 
 2) https://www.numbeo.com/quality-of-life/rankings_by_country.jsp
 
-![qualityoflifeindex](Images\qualityoflifeindex.png)
+![qualityoflifeindex](Images/qualityoflifeindex.png)
 
-Heatmap of Quality of Life index by country.
+* Heatmap of Quality of Life index by country.
 
 
 3) https://ourworldindata.org/happiness-and-life-satisfaction#health
 
-![gdpscatterplot](Images\gdpscatterplot.png)
+![gdpscatterplot](Images/gdpscatterplot.png)
 
-Scatter plot of GDP per capita and Life Satisfaction bubbles colored by region.
+* Scatter plot of GDP per capita and Life Satisfaction bubbles colored by region.
 
 4) https://ourworldindata.org/human-development-index
 
-![countrycholorpleth](Images\countrycholorpleth.png)
+![countrycholorpleth](Images/countrycholorpleth.png)
 
 
 ## Our visualization Sketch:
