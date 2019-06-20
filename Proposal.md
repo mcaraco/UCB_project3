@@ -54,7 +54,7 @@ Quality of Life Index
 GDP per Capita
 Combination Quality of Life Index x GDP per Capita
 
-![countrycholorpleth.png](Images/countrycholorpleth.png)
+![countrycholorpleth.png](Images/countrycholorpleth_v2.png)
 
 
 ### Scatter Plot of Country
