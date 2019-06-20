@@ -61,12 +61,12 @@ https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=VN
 
 * X axis: GDP per Capita
 * Y axis: (Choose From)
--Quality of Life Index
--Health
--Work Life Balance
--Safety
--Education
--Etc.
+- Quality of Life Index
+- Health
+- Work Life Balance
+- Safety
+- Education
+- Etc.
 
 ![7-animated-scatter](Images/7-animated-scatter.gif)
 
