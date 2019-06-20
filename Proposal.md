@@ -34,7 +34,7 @@ https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=VN
 
 ![qualityoflifeindex](Images/qualityoflifeindex.png)
 
-* Heatmap of Quality of Life index by country.
+* Cholorpleth Graph on Quality of Life index by country.
 
 
 3) https://ourworldindata.org/happiness-and-life-satisfaction#health
@@ -43,9 +43,6 @@ https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=VN
 
 * Scatter plot of GDP per capita and Life Satisfaction bubbles colored by region.
 
-4) https://ourworldindata.org/human-development-index
-
-![countrycholorpleth](Images/countrycholorpleth.png)
 
 
 ## Our visualization Sketch:
