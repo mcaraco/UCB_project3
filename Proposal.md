@@ -1,3 +1,5 @@
+### PROJECT 3 PROPOSAL 
+
 ## Team 5: Matt, Michel, Neal, Kelly
 
 ### Topic and Rationale
