@@ -1,6 +1,6 @@
 ## Team 5: Matt, Michel, Neal, Kelly
 
-## Topic and Rationale
+### Topic and Rationale
 
 What is happiness? Does happiness correlate with a country’s GDP per capita? Quality of Life can span from a person’s health, work life balance, safety or cost of living. Our project proposal brings datasets by country that can answer this question. 
 
