@@ -68,7 +68,7 @@ Safety
 Education
 Etc.
 
-![animatedscatter](Images/7-animated-scatter.gif)
+![7-animated-scatter](Images/7-animated-scatter.gif)
 
 
 
