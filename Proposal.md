@@ -23,30 +23,26 @@ CSV download
 
 (1) http://www.oecdbetterlifeindex.org/
 
-![betterlifeindex] (Images/betterlifeindex.png)
-
+![betterlifeindex](Images/betterlifeindex.png)
 
 Sorts the y-Axis by the interactive scale filter. Each category is a different node that will enlarge as you increase the scale.
 
 2) https://www.numbeo.com/quality-of-life/rankings_by_country.jsp
 
-
+![qualityoflifeindex](Images\qualityoflifeindex.png)
 
 Heatmap of Quality of Life index by country.
 
 
-
-
 3) https://ourworldindata.org/happiness-and-life-satisfaction#health
 
-
+![gdpscatterplot](Images\gdpscatterplot.png)
 
 Scatter plot of GDP per capita and Life Satisfaction bubbles colored by region.
 
 4) https://ourworldindata.org/human-development-index
 
-
-
+![countrycholorpleth](Images\countrycholorpleth.png)
 
 
 ## Our visualization Sketch:
