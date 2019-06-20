@@ -6,15 +6,15 @@ What is happiness? Does happiness correlate with a country’s GDP per capita? Q
 
 ## Data Sources
 
-## Well-being Life Index:
+### Well-being Life Index:
 https://stats.oecd.org/index.aspx?DataSetCode=BLI
 CSV download
 
-## Quality of Life Index by Country:
+### Quality of Life Index by Country:
 https://www.numbeo.com/quality-of-life/ 
 Web scraping
 
-## GDP Per Capita:
+### GDP Per Capita:
 https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=VN
 CSV download
 
@@ -49,7 +49,7 @@ Scatter plot of GDP per capita and Life Satisfaction bubbles colored by region.
 
 ## Our visualization Sketch:
 
-WORLD MAP - Heat Map
+## WORLD MAP - Heat Map
 
 Scale by:
 Quality of Life Index
@@ -57,7 +57,7 @@ GDP per Capita
 Combination Quality of Life Index x GDP per Capita
 
 
-(2) Scatter Plot of Country
+## Scatter Plot of Country
 
 X axis: GDP per Capita
 Y axis: (Choose From)
