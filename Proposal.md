@@ -65,10 +65,13 @@ https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=VN
 
 ### Scatter Plot of Country
 
-* X axis: GDP per Capita
+* X axis: (Choose From)
+<ol>
+  <li>GDP per Capita</li>
+  <li>Quality of Life Index</li>
+  <ol>
 * Y axis: (Choose From)
 <ol>
-  <li>Quality of Life Index</li>
 <li>Health</li>
 <li>Work Life Balance</li>
 <li>Safety</li>
