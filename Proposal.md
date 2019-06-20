@@ -69,15 +69,16 @@ https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=VN
 <ol>
   <li>GDP per Capita</li>
   <li>Quality of Life Index</li>
-  </ol>
+ </ol>
+  
 * Y axis: (Choose From)
 <ol>
-<li>Health</li>
-<li>Work Life Balance</li>
-<li>Safety</li>
-<li>Education</li>
-<li>Etc.</li>
-  </ol>
+  <li>Health</li>
+  <li>Work Life Balance</li>
+  <li>Safety</li>
+  <li>Education</li>
+  <li>Etc.</li>
+</ol>
 
 * Add YEAR filter
 
