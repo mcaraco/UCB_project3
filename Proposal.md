@@ -21,7 +21,9 @@ CSV download
 
 ## Screenshots of Inspiring Viz
 
-http://www.oecdbetterlifeindex.org/
+(1) http://www.oecdbetterlifeindex.org/
+
+![betterlifeindex] (Image/betterlifeindex.jpg)
 
 
 Sorts the y-Axis by the interactive scale filter. Each category is a different node that will enlarge as you increase the scale.
