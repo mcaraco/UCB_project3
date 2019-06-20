@@ -1,25 +1,25 @@
-Team 5: Matt, Michel, Neal, Kelly
+## Team 5: Matt, Michel, Neal, Kelly
 
-Topic and Rationale
+## Topic and Rationale
 
 What is happiness? Does happiness correlate with a country’s GDP per capita? Quality of Life can span from a person’s health, work life balance, safety or cost of living. Our project proposal brings datasets by country that can answer this question. 
 
-Data Sources
+## Data Sources
 
-Well-being Life Index:
+## Well-being Life Index:
 https://stats.oecd.org/index.aspx?DataSetCode=BLI
 CSV download
 
-Quality of Life Index by Country:
+## Quality of Life Index by Country:
 https://www.numbeo.com/quality-of-life/ 
 Web scraping
 
-GDP Per Capita:
+## GDP Per Capita:
 https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=VN
 CSV download
 
 
-Screenshots of Inspiring Viz
+## Screenshots of Inspiring Viz
 
 http://www.oecdbetterlifeindex.org/
 
@@ -47,7 +47,7 @@ Scatter plot of GDP per capita and Life Satisfaction bubbles colored by region.
 
 
 
-Our visualization Sketch:
+## Our visualization Sketch:
 
 WORLD MAP - Heat Map
 
