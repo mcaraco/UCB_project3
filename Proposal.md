@@ -49,7 +49,7 @@ Scatter plot of GDP per capita and Life Satisfaction bubbles colored by region.
 
 ## Our visualization Sketch:
 
-## WORLD MAP - Heat Map
+### WORLD MAP - Heat Map
 
 Scale by:
 Quality of Life Index
@@ -57,7 +57,7 @@ GDP per Capita
 Combination Quality of Life Index x GDP per Capita
 
 
-## Scatter Plot of Country
+### Scatter Plot of Country
 
 X axis: GDP per Capita
 Y axis: (Choose From)
