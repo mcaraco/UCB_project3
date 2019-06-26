@@ -96,6 +96,16 @@
   }
   
   var layout = {
+    title: {
+      text:'Quality of Life vs GDP',
+      font: {
+        family: 'Courier New, monospace',
+        size: 24
+      },
+      xref: 'paper',
+      x: 0.05,
+    },
+
     xaxis: {
       title: 'Quality of Life Index',
       range: [-30, 225]
