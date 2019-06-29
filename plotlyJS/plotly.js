@@ -57,7 +57,7 @@
       text: data.text.slice(),
       mode: 'markers',
       marker: {
-        size: data.marker.size.slice(),
+        // size: data.marker.size.slice(),
         sizemode: 'area',
         sizeref: 200000
       }
@@ -89,13 +89,15 @@
       label: years[i],
       args: [[years[i]], {
         mode: 'immediate',
-        transition: {duration: 300},
-        frame: {duration: 300, redraw: false},
+        transition: {duration: 2000},
+        frame: {duration: 2000, redraw: false},
       }]
     });
   }
   
   var layout = {
+    width: 1500,
+    height: 800,
     title: {
       text:'Quality of Life vs GDP',
       font: {
@@ -112,7 +114,8 @@
     },
     yaxis: {
       title: 'GDP per Capita',
-      type: 'log'
+      // type: 'log'
+      range: [-100000, 200000]
     },
     hovermode: 'closest',
      // We'll use updatemenus (whose functionality includes menus as
@@ -136,8 +139,8 @@
         args: [null, {
           mode: 'immediate',
           fromcurrent: true,
-          transition: {duration: 300},
-          frame: {duration: 500, redraw: false}
+          transition: {duration: 2000},
+          frame: {duration: 2000, redraw: false}
         }],
         label: 'Play'
       }, {
