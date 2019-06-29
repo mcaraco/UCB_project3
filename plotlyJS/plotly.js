@@ -108,7 +108,7 @@
 
     xaxis: {
       title: 'Quality of Life Index',
-      range: [-30, 225]
+      range: [-80, 225]
     },
     yaxis: {
       title: 'GDP per Capita',
