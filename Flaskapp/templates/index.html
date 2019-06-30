@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome">
+    <title>Mission to Mars</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="static/css/mainHW12.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+
+</head>
+<body>
+    <nav class="navbar">
+        <iframe src="https://giphy.com/embed/13ln9K5TWkNTLa" maxwidth="240" height="135" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <h1 class="m2m font-weight-bold"><center>Can Money Buy Happiness?</center></h1>
+        <h2 class="font-weight-bold"><center><u>The Relationship Between GDP and Quality of Life</u></center></h2>
+        <br>
+        <!-- <button class="btn-primary">Make It Rain!</button>     -->
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 blurbLeft">
+                <br><br><br>
+                <!-- start slipsum code -->
+                <h5>We happy?</h5>
+                <p>You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder. After the avalanche, it took us a week to climb out. Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... and only five made it out. Now we took an oath, that I'm breaking now. We said we'd say it was the snow that killed the other two, but it wasn't. Nature is lethal but it doesn't hold a candle to man. </p>
+                <h5>Are you ready for the truth?</h5>
+                <p>My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand? </p>
+                <!-- end slipsum code -->
+            </div>
+            <div class="col-md-4 picturesRight">
+                    <div class="container-fluid col-md-12">
+                        <div class="card bg-dark text-white">
+                            <div class="card-body">
+                                <h3><center>Choropleth Map - GDP vs. Quality of Life</center></h3>
+                                <a href="/choropleth"><img src="static/images/map_preview.PNG" class="img-fluid img-responsive" align="right"></a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <br><br><hr><br>
+        <div class="row">
+                <div class="col-md-4 picturesLeft">
+                        <div class="container-fluid col-md-12">
+                            <div class="card bg-dark text-white">
+                                <div class="card-body p-1">
+                                    <h3><center>Scatter Plot - GDP vs. Quality of Life</center></h3>
+                                    <a href="/plotly"><img src="static/images/scatter_preview.PNG" class="img-fluid img-responsive" align="right"></a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-md-6 blurbRight">
+                        <br><br><br>
+                        <!-- start slipsum code -->
+                        <h5>We happy?</h5>
+                        <p>You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder. After the avalanche, it took us a week to climb out. Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... and only five made it out. Now we took an oath, that I'm breaking now. We said we'd say it was the snow that killed the other two, but it wasn't. Nature is lethal but it doesn't hold a candle to man. </p>
+                        <h5>Are you ready for the truth?</h5>
+                        <p>My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand? </p>
+                        <!-- end slipsum code -->
+                </div>
+        </div>
+        <br><br><hr><br>
+        <div class="row">
+                <div class="col-md-6 blurbLeft">
+                    <br><br><br>
+                    <!-- start slipsum code -->
+                    <h5>We happy?</h5>
+                    <p>You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder. After the avalanche, it took us a week to climb out. Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... and only five made it out. Now we took an oath, that I'm breaking now. We said we'd say it was the snow that killed the other two, but it wasn't. Nature is lethal but it doesn't hold a candle to man. </p>
+                    <h5>Are you ready for the truth?</h5>
+                    <p>My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand? </p>
+                    <!-- end slipsum code -->
+                </div>
+                <div class="col-md-4 picturesRight">
+                        <div class="container-fluid col-md-12">
+                            <div class="card-list visualizations" style="align-content: center">
+                                <div class="flourishHover clickableImg">
+                                    <h3><center>Animated Bar Charts</center></h3> <br><br>
+                                    <img src="static/images/flourish.PNG" class="img-fluid img-responsive" data-toggle="modal" data-target="#flourish">
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="modal fade" id="flourish" tabindex="1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h3 class="modal-title" id="exampleModalLabel"><center>FLOURISH ANIMATION GRAPHS</center></h3>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                                    <div class="card col-md-4" style="width: 18rem;">
+                                            <img class="card-img-top vizThumb img-fluid img-responsive" src="static/images/GDP.png" alt="Card image cap">
+                                                <div class="card-body">
+                                                    <h5 class="card-title"</h5><strong>GDP 2012-17</strong></h5>
+                                                    <p class="card-text">GDP per capita is income for an entire economy divided by it’s population. It’s frequently cited when assessing standard of living.</p>
+                                                    <center><a href="barracechart" class="btn btn-primary">Run GDP</a></center>
+                                                </div>
+                                        </div>
+                                        <div class="card col-md-4" style="width: 18rem;">
+                                            <img class="card-img-top vizThumb img-fluid img-responsive" src="static/images/flourish.PNG" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title"><strong>GDP:QoL Ratios</strong></h5>
+                                                <p class="card-text">Flourish graphic that shows the top 10 in GDP/QOL ratio starting in 2012.</p>
+                                                <a href="#" class="btn btn-primary">Run GDP/QoL Ratio</a>
+                                            </div>
+                                        </div>
+                                        <div class="card col-md-4" style="width: 18rem;" text-align="center">
+                                            <img class="card-img-top vizThumb img-fluid img-responsive" src="static/images/QoL.png" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title"><strong>QoL Index 2012-17</strong></h5>
+                                                <p class="card-text">Flourish graphic that shows the top 10 in Quality of Life index starting in 2012.</p>
+                                                <center><a href="#" class="btn btn-primary">Run QoL</a></center>
+                                            </div>
+                                        </div> 
+                            </div>
+                            <div class="modal-footer">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+    <!-- <br><br><br>
+    <div class="row mt-3 container-fluid m-5 p-auto" style="width: 100%;">
+        <div class=" container-fluid col-md-12">
+            <h2 class="card-header bg-dark text-white text-center mb-1" style="width: 98.05%; margin-left: 10px; border-bottom-style: solid; border-bottom-color: #031A19">Data Visualizations</h2>
+            <div class="container-fluid col-md-4">
+                <div class="card bg-dark text-white">
+                    <div class="card-body p-1">
+                        <h3><center>Choropleth Map - GDP vs. Quality of Life</center></h3>
+                        <a href="/Choropleth.html"><img src="/images/map_preview.PNG" class="img-fluid img-responsive"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid col-md-4">
+                <div class="card bg-dark text-white">
+                    <div class="card-body p-1">
+                        <h3><center>Scatter Plot - GDP vs. Quality of Life</center></h3>
+                        <a href="/plotlyJS/index.html"><img src="/images/scatter_preview.PNG" class="img-fluid img-responsive"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid col-md-4">
+                <div class="card bg-dark text-white">
+                    <div class="card-body p-1">
+                        <h3><center>Choropleth Map - GDP vs. Quality of Life</center></h3>
+                        <a href="/barRaceChart.html"><img src="/images/flourish.PNG" class="img-fluid img-responsive"></a>
+                    </div>
+                </div>
+            </div>                                                                                                            -->
+        </div>
+    </div> -->
+    <br>
+    <br>
+    <br>
+    <script>d3.select(".clickableImg")
+        .on("click", function() {
+            console.log("test");
+            d3.selectAll(".modal")
+                .classed("hidden", false);
+        });        
+            </script>
+</body>
+</html>
