@@ -26,7 +26,6 @@ function createChorpleth(year){
     var geojson;
     // Grab data with d3
     d3.json(APILink, function(error, data) {
-      kk=L.geoJson(data)
     //   console.log(kk)
 
 
@@ -96,7 +95,7 @@ function createChorpleth(year){
           feature.properties[`GDP_${year}`].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
              layer.on({
               mouseover: highlightFeature,
-              mouseout: resetHighlight,
+              mouseout: resetHighlight2,
           });
         },
         
@@ -119,7 +118,7 @@ function createChorpleth(year){
           // Border color
           color: "#fff",
           weight: 1,
-          fillOpacity: 2
+          fillOpacity: 0.8
         },
     
         // Binding a pop-up to each layer
@@ -128,7 +127,7 @@ function createChorpleth(year){
           feature.properties[`COMB_${year}`])
              layer.on({
               mouseover: highlightFeature,
-              mouseout: resetHighlight,
+              mouseout: resetHighlight3,
           });
         },
         
@@ -146,10 +145,11 @@ function createChorpleth(year){
       
       // Overlays that may be toggled on or off
       var overlayMaps = {
+        "Choropleth Map":{
         "Quality of Life Index": geojson,
         "GDP per Capita":geojson2,
         "Combination":geojson3
-      };
+      }};
       
 
     document.getElementById("map").outerHTML = "";
@@ -224,7 +224,7 @@ function createChorpleth(year){
         var labels = [];
     
         // Add min & max
-        var legendInfo = `<h1>${year} Combination</h1>` +
+        var legendInfo = `<h1>Combination Scale</h1>` +
           "<div class=\"labels\">" +
             "<div class=\"min\">" + limits[0] + "</div>" +
             "<div class=\"max\">" + limits[limits.length - 1] + "</div>" +
@@ -298,8 +298,24 @@ function createChorpleth(year){
       geojson.resetStyle(e.target);
     }
 
+    function resetHighlight2(e) {
+      geojson2.resetStyle(e.target);
+    }
+
+    function resetHighlight3(e) {
+      geojson3.resetStyle(e.target);
+    }
+    var options = {
+      // Make the "Landmarks" group exclusive (use radio inputs)
+      exclusiveGroups: ["Choropleth Map"],
+      // Show a checkbox next to non-exclusive group labels for toggling all
+      groupCheckboxes: true
+    };
+    var layerControl = L.control.groupedLayers(baseMaps, overlayMaps, options);
+    myMap.addControl(layerControl);
     
-    L.control.layers(baseMaps, overlayMaps,{collapse:false}).addTo(myMap);
+    // L.control.layers(baseMaps).addTo(myMap);
+    // L.control.layers(overlayMaps).addTo(myMap);
     
 });
     
