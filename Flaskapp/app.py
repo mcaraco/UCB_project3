@@ -98,6 +98,23 @@ def country(countryname):
 def build():
 	return render_template("chart.html")
 
+@app.route("/GDPRaceChart")
+def build1():
+	return render_template("GDPRaceChart.html")
+
+
+@app.route("/CombineRaceChart")
+def build2():
+	return render_template("CombineRaceChart.html")
+@app.route("/QLIRaceChart")
+def build3():
+	return render_template("QLIRaceChart.html")
+
+	
+
+
+
+
 # @app.route('/login', methods=['GET','POST'])
 # def login():
 # 	error= None
